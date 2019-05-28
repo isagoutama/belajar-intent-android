@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_move_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PINDAH ACTIVITY"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:id="@+id/btn_move_with_data_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PINDAH ACTIVITY DENGAN DATA"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btn_move_with_object_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PINDAH ACTIVITY DENGAN OBJECT"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btn_dial_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="TELEPON"/>
+
+    <Button
+        android:id="@+id/btn_result_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:text="RESULT ACTIVITY"/>
+    
+    <TextView
+        android:id="@+id/tv_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="RESULT FROM ACTIVITY"/>
+
+</LinearLayout>
